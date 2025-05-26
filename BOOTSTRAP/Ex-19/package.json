@@ -1,0 +1,16 @@
+{
+  "name": "ex-19",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/custom.scss css/custom.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.0"
+  }
+}

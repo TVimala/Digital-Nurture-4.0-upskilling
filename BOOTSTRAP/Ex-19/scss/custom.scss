@@ -1,0 +1,5 @@
+// 1. Import overrides BEFORE Bootstrap
+@import "variables";
+
+// 2. Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

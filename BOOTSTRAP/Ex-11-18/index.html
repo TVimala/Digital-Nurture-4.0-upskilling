@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap Exercises 11-18</title>
+  <!-- Bootstrap 5 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <style>
+    /* For fixed footer spacing */
+    body {
+      margin-bottom: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container my-4">
+
+  <!-- Exercise 11.1: Profile Card -->
+  <section class="mb-5">
+    <h3>Exercise 11.1: Profile Card</h3>
+    <div class="card" style="width: 18rem;">
+      <img src="https://randomuser.me/api/portraits/women/44.jpg" class="card-img-top" alt="Profile Image" />
+      <div class="card-body">
+        <h5 class="card-title">Jane Doe</h5>
+        <p class="card-text">Web Developer from San Francisco.</p>
+        <a href="#" class="btn btn-primary">Follow</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 11.2: Media Object -->
+  <section class="mb-5">
+    <h3>Exercise 11.2: Media Object</h3>
+    <div class="d-flex align-items-start">
+      <img src="https://randomuser.me/api/portraits/men/32.jpg" class="me-3 rounded" alt="User" width="64" />
+      <div>
+        <h5>John Smith</h5>
+        <p>This is a media object layout with an image aligned left and text content on the right.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 12.1: Spacing Utilities -->
+  <section class="mb-5 p-2 py-5 bg-light border">
+    <h3 class="m-3 mt-4">Exercise 12.1: Spacing Utilities</h3>
+    <p class="mx-3">This section uses margin and padding utilities to improve spacing.</p>
+  </section>
+
+  <!-- Exercise 12.2: Pricing Section -->
+  <section class="mb-5">
+    <h3>Exercise 12.2: Pricing Section</h3>
+    <div class="row g-4">
+      <div class="col-md-4 p-3 border rounded">
+        <h4 class="mb-3">Basic</h4>
+        <p class="lead">$9.99 / month</p>
+        <ul>
+          <li>Feature A</li>
+          <li>Feature B</li>
+        </ul>
+        <button class="btn btn-primary w-100">Choose Plan</button>
+      </div>
+      <div class="col-md-4 p-3 border rounded bg-light">
+        <h4 class="mb-3">Standard</h4>
+        <p class="lead">$19.99 / month</p>
+        <ul>
+          <li>Feature A</li>
+          <li>Feature B</li>
+          <li>Feature C</li>
+        </ul>
+        <button class="btn btn-primary w-100">Choose Plan</button>
+      </div>
+      <div class="col-md-4 p-3 border rounded">
+        <h4 class="mb-3">Premium</h4>
+        <p class="lead">$29.99 / month</p>
+        <ul>
+          <li>All Features</li>
+          <li>Priority Support</li>
+        </ul>
+        <button class="btn btn-primary w-100">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 13.1: Dashboard with Contextual Backgrounds -->
+  <section class="mb-5 p-3 text-white">
+    <h3>Exercise 13.1: Dashboard Colors</h3>
+    <div class="row g-3">
+      <div class="col-md-3 p-3 bg-primary">Primary</div>
+      <div class="col-md-3 p-3 bg-success">Success</div>
+      <div class="col-md-3 p-3 bg-warning text-dark">Warning</div>
+      <div class="col-md-3 p-3 bg-danger">Danger</div>
+    </div>
+  </section>
+
+  <!-- Exercise 13.2: bg-gradient with bg-dark -->
+  <section class="mb-5 p-4 bg-gradient bg-dark text-white rounded">
+    <h3>Exercise 13.2: Gradient Background</h3>
+    <p>This section uses bg-gradient with bg-dark and white text.</p>
+  </section>
+
+  <!-- Exercise 14.1: Display and Visibility -->
+  <section class="mb-5">
+    <h3>Exercise 14.1: Display and Visibility</h3>
+    <div class="bg-info text-white p-3 d-none d-md-block">Visible on md and up</div>
+    <div class="bg-secondary text-white p-3 d-lg-flex d-none">Visible on lg and up as flex</div>
+  </section>
+
+  <!-- Exercise 14.2: Responsive Sidebar -->
+  <section class="mb-5">
+    <h3>Exercise 14.2: Responsive Sidebar</h3>
+    <div class="d-none d-sm-block bg-light p-3 border" style="max-width: 250px;">
+      Sidebar visible on tablets (sm) and larger.
+    </div>
+  </section>
+
+  <!-- Exercise 15.1: Borders and Rounded Image -->
+  <section class="mb-5">
+    <h3>Exercise 15.1: Borders and Rounded Circle Image</h3>
+    <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Rounded Border" 
+      class="border border-primary border-3 rounded-circle" width="120" />
+  </section>
+
+  <!-- Exercise 15.2: Shadow and Rounded Pill Card -->
+  <section class="mb-5">
+    <h3>Exercise 15.2: Shadow and Rounded Pill Card</h3>
+    <div class="card shadow-lg rounded-pill p-3" style="max-width: 400px;">
+      <h5 class="card-title">Card with Shadow and Rounded Pill</h5>
+      <p class="card-text">This card uses shadow-lg and rounded-pill classes.</p>
+    </div>
+  </section>
+  <!-- Exercise 16.2: Position Relative and Absolute Badge -->
+  <section class="mb-5 position-relative" style="max-width: 200px;">
+    <h3>Exercise 16.2: Badge Overlay</h3>
+    <img src="https://randomuser.me/api/portraits/men/50.jpg" alt="Profile" class="img-fluid rounded" />
+    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+      New
+      <span class="visually-hidden">new alerts</span>
+    </span>
+  </section>
+  <!-- Exercise 17.2: Icon-only Buttons -->
+  <section class="my-5 text-center">
+    <h3>Exercise 17.2: Icon-only Buttons</h3>
+    <button type="button" class="btn btn-primary mx-1" aria-label="Like">
+      <i class="bi bi-hand-thumbs-up"></i>
+    </button>
+    <button type="button" class="btn btn-danger mx-1" aria-label="Dislike">
+      <i class="bi bi-hand-thumbs-down"></i>
+    </button>
+    <button type="button" class="btn btn-success mx-1" aria-label="Save">
+      <i class="bi bi-bookmark"></i>
+    </button>
+  </section>
+
+  <!-- Exercise 18.1: Modal Popup -->
+  <section class="mb-5">
+    <h3>Exercise 18.1: Modal Popup</h3>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Launch Modal
+    </button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal Title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            This is the content inside the modal popup.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exercise 18.2: Accordion -->
+  <section class="mb-5">
+    <h3>Exercise 18.2: Accordion</h3>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            This is the first accordion item's content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            This is the second accordion item's content.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="bg-dark text-white text-center py-3 position-fixed bottom-0 start-0 end-0 w-100">
+        <h5 class="text-center mb-4">16.1 - Fixed Footer & Exercise 17.1 - Social Media Icons</h5>
+        <a href="#" class="text-white me-3 fs-4"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3 fs-4"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white me-3 fs-4"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white me-3 fs-4"><i class="bi bi-linkedin"></i></a>
+      </footer>
+</div>
+
+<!-- Bootstrap 5 JS Bundle (with Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

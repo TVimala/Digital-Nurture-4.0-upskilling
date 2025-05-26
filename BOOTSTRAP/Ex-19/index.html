@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Customized Bootstrap</title>
+  <link rel="stylesheet" href="dist/custom.css" />
+  <style>
+    pre {
+      background: #f8f9fa;
+      border: 1px solid #ddd;
+      padding: 1em;
+      border-radius: 0.3rem;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body class="p-5">
+
+    <h1 class="mb-4">Exercise 19 - Customization with Sass</h1>
+    <h2>Exercise 19.1</h2>
+    <section class="mb-5">
+      <h2>Step 1: Setup Your Project</h2>
+      <pre>
+    mkdir bootstrap-sass-project
+    cd bootstrap-sass-project
+    npm init -y
+    npm install bootstrap sass</pre>
+    </section>
+  
+    <section class="mb-5">
+      <h2>Step 2: Create Your SCSS Files</h2>
+      <h5>_variables.scss (override defaults)</h5>
+      <pre>
+  // _variables.scss
+  $primary: #ff5722;
+  $border-radius: 1rem;</pre>
+  
+      <h5>custom.scss (import variables + Bootstrap)</h5>
+      <pre>
+  // custom.scss
+  @import "variables";
+  @import "../node_modules/bootstrap/scss/bootstrap";</pre>
+    </section>
+  
+    <section class="mb-5">
+      <h2>Step 3: Compile Sass</h2>
+      <pre>
+  npx sass scss/custom.scss dist/custom.css</pre>
+      <p>Or add to <code>package.json</code> scripts:</p>
+      <pre>
+  "scripts": {
+    "build": "sass scss/custom.scss dist/custom.css"
+  }</pre>
+    </section>
+  
+    <section class="mb-5">
+      <h2>Step 4: Use Customized Bootstrap CSS</h2>
+      <p>Example HTML snippet:</p>
+      <pre>
+  &lt;link rel="stylesheet" href="dist/custom.css" /&gt;
+  
+  &lt;button class="btn btn-primary rounded"&gt;Rounded Button&lt;/button&gt;</pre>
+    </section>
+  
+    <hr />
+    <h2 class="mb-4">Exercise 19.2</h2>
+  <h1 class="text-primary">Custom Primary Color</h1>
+  <button class="btn btn-secondary rounded">Rounded Button</button>
+
+</body>
+</html>
