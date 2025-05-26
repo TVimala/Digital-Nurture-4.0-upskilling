@@ -1,0 +1,212 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    h2 {
+      color: #2c3e50;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    #mainHeader {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .eventCard {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 15px;
+      margin: 20px;
+      background-color: #f9f9f9;
+    }
+    h3, p {
+      font-family: Arial, sans-serif;
+      color: #555;
+    }
+  button {
+   margin-top: 10px;
+    background-color: #007BFF;;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+  }
+  input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+    @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+     body {
+      background: #e0f7fa url('https://www.transparenttextures.com/patterns/white-wall-3.png');
+      font-family: 'Roboto', sans-serif;
+      color: #2c3e50;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(135deg, #007BFF, #00c6ff);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    /* Section with RGBA Background */
+    .section {
+      background-color: rgba(255, 255, 255, 0.9); 
+      padding: 20px;
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    /* Typography Customizations */
+    .headline {
+      font-family: 'Playfair Display', serif;
+
+      font-size: 28px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      color: #004d40;
+      letter-spacing: 1.5px;
+    }
+    .description {
+      font-size: 16px;
+      line-height: 1.8;
+      text-align: justify;
+      letter-spacing: 0.5px;
+    }
+     a:link {
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: #5a2a82;
+    }
+
+    a:hover {
+      color: #FF5722;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: red;
+    }
+
+    /* === List Styling === */
+    nav ul {
+      list-style-type: none; /* remove bullets */
+      list-style-position: inside;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 10px;
+      padding: 5px 10px;
+      background-color: #e3f2fd;
+      border-radius: 5px;
+    }
+
+    /* === Table Styling === */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #1976d2;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    tr:nth-child(odd) {
+      background-color: #ffffff;
+    }
+    .eventCard {
+      border: 2px solid #4CAF50;
+      padding: 20px;
+      margin: 15px;
+      background-color: #f9f9f9;
+    }
+
+    input:focus {
+      outline: 2px solid #FF9800;
+    }
+
+    .hidden {
+      visibility: hidden;
+    }
+
+    .none {
+      display: none;
+    }
+    .newsArticle {
+      column-count: 2;
+      column-gap: 30px;
+      column-rule: 1px solid gray;
+      padding: 20px;
+      background-color: #fefefe;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    img.responsive {
+      width: 50%;
+      height: auto;
+    }
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      nav ul li {
+        margin: 10px 0;
+        font-size: 16px;
+      }
+
+      img.responsive {
+        width: 90%;
+      }
+
+      .eventCard {
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+
