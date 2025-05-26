@@ -2,7 +2,7 @@
 
 |Exercise     | Link                                  |
 |-------------|---------------------------------------|
-| 1           |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP/Ex-1/1.1index.html)|[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP/Ex-1/1.2/1.2index.html)
+| 1           |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP/Ex-1/1.1index.html)|
 | 2           |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP/Ex-2/index.html)|
 | 03 - 09     |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP/Ex-3-9/index.html)|
 | 10          |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP/Ex-10/index.html)|
