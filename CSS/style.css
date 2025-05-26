@@ -25,6 +25,30 @@
       font-family: Arial, sans-serif;
       color: #555;
     }
+    button {
+   margin-top: 10px;
+    background-color: #007BFF;;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+  }
+  input,
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
     @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
      body {
       background: #e0f7fa url('https://www.transparenttextures.com/patterns/white-wall-3.png');
