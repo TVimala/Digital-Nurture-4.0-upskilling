@@ -6,11 +6,12 @@ public class Factorial {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
         long fact = 1;
-
+        if (num < 0) {
+            System.out.println("Invalid input. Please enter a non-negative number.");
+        }
         for (int i = 1; i <= num; i++) {
             fact *= i;
         }
-
         System.out.println("Factorial of " + num + " is " + fact);
     }
 }
