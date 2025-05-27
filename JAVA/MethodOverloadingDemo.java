@@ -13,9 +13,9 @@ public class MethodOverloadingDemo {
     }
     public static void main(String[] args) {
         // Calling overloaded methods
-        int sum1 = add(5, 10);                // Two integers
-        double sum2 = add(3.5, 7.2);          // Two doubles
-        int sum3 = add(2, 4, 6);              // Three integers
+        int sum1 = add(5, 10);               
+        double sum2 = add(3.5, 7.2);          
+        int sum3 = add(2, 4, 6);              
         System.out.println("Sum of 5 and 10 (int): " + sum1);
         System.out.println("Sum of 3.5 and 7.2 (double): " + sum2);
         System.out.println("Sum of 2, 4, and 6 (int): " + sum3);
