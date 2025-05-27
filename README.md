@@ -4,5 +4,5 @@
 | 1      | CSS          |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/CSS/index.html)|
 | 1      | Javascript   |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/JS/index.html)|
 | 1      | Bootstrap    |[Link](https://tvimala.github.io/Digital-Nurture-4.0-upskilling/BOOTSTRAP)|
-|        | SQL          ||
-|        | Java         ||
+| 2      | SQL          ||
+| 3      | Java         ||
