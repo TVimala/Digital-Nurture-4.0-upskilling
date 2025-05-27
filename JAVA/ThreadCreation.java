@@ -1,3 +1,12 @@
+public class Threads {
+    public static void main(String[] args) {
+        Thread thread1 = new Thread(new MessagePrinter("Thread 1 message", 5));
+        Thread thread2 = new Thread(new MessagePrinter("Thread 2 message", 5));
+
+        thread1.start();
+        thread2.start();
+    }
+}
 class MessagePrinter implements Runnable {
     private String message;
     private int times;
@@ -17,15 +26,5 @@ class MessagePrinter implements Runnable {
                 e.printStackTrace();
             }
         }
-    }
-}
-
-public class Threads {
-    public static void main(String[] args) {
-        Thread thread1 = new Thread(new MessagePrinter("Thread 1 message", 5));
-        Thread thread2 = new Thread(new MessagePrinter("Thread 2 message", 5));
-
-        thread1.start();
-        thread2.start();
     }
 }
